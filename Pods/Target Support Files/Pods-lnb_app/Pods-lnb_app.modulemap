@@ -1,0 +1,6 @@
+framework module Pods_lnb_app {
+  umbrella header "Pods-lnb_app-umbrella.h"
+
+  export *
+  module * { export * }
+}
