@@ -1,12 +1,15 @@
 PODS:
+  - ActionSheetPicker-3.0 (2.2.0)
   - Alamofire (3.4.1)
 
 DEPENDENCIES:
+  - ActionSheetPicker-3.0
   - Alamofire (~> 3.4)
 
 SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: d11a4c12c6aaf704b8a3f56d179198c99f3e41e6
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
 
-PODFILE CHECKSUM: 353e0f54e7c4198c6ef300c1d0a962bbb96b2e46
+PODFILE CHECKSUM: e66fe9c7fb91e9757c57c3a84adf0cb0e0f23a46
 
 COCOAPODS: 1.0.0

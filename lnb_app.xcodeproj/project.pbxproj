@@ -8,18 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		93E3CDA2723A4EA10DB693A9 /* Pods_lnb_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBE00DFE8A8DB59FF1344B3 /* Pods_lnb_app.framework */; };
+		C96F00401D64108000AF095C /* FilterSelecedContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96F003F1D64108000AF095C /* FilterSelecedContoller.swift */; };
 		C9C094881D614FAE00088C18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C094871D614FAE00088C18 /* AppDelegate.swift */; };
 		C9C0948D1D614FAE00088C18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C0948B1D614FAE00088C18 /* Main.storyboard */; };
 		C9C0948F1D614FAE00088C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C0948E1D614FAE00088C18 /* Assets.xcassets */; };
 		C9C094921D614FAE00088C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C094901D614FAE00088C18 /* LaunchScreen.storyboard */; };
 		C9C0949A1D615EF900088C18 /* LNBListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C094991D615EF900088C18 /* LNBListController.swift */; };
 		C9C0949D1D615F2E00088C18 /* loans.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C0949C1D615F2E00088C18 /* loans.swift */; };
+		C9C094A01D6174C900088C18 /* LNBListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C0949F1D6174C900088C18 /* LNBListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1ACFA6AF7BB9B85785FFCAB2 /* Pods-lnb_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lnb_app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lnb_app/Pods-lnb_app.debug.xcconfig"; sourceTree = "<group>"; };
 		2DBE00DFE8A8DB59FF1344B3 /* Pods_lnb_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lnb_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC0205D54120BA4EF04ECD7 /* Pods-lnb_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lnb_app.release.xcconfig"; path = "Pods/Target Support Files/Pods-lnb_app/Pods-lnb_app.release.xcconfig"; sourceTree = "<group>"; };
+		C96F003F1D64108000AF095C /* FilterSelecedContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterSelecedContoller.swift; sourceTree = "<group>"; };
 		C9C094841D614FAE00088C18 /* lnb_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lnb_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C094871D614FAE00088C18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9C0948C1D614FAE00088C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		C9C094931D614FAE00088C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9C094991D615EF900088C18 /* LNBListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNBListController.swift; sourceTree = "<group>"; };
 		C9C0949C1D615F2E00088C18 /* loans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loans.swift; sourceTree = "<group>"; };
+		C9C0949F1D6174C900088C18 /* LNBListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNBListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,11 @@
 		C9C094861D614FAE00088C18 /* lnb_app */ = {
 			isa = PBXGroup;
 			children = (
+				C9C0949E1D61748400088C18 /* Cell */,
 				C9C0949B1D615F1D00088C18 /* Factory */,
 				C9C094871D614FAE00088C18 /* AppDelegate.swift */,
 				C9C094991D615EF900088C18 /* LNBListController.swift */,
+				C96F003F1D64108000AF095C /* FilterSelecedContoller.swift */,
 				C9C0948B1D614FAE00088C18 /* Main.storyboard */,
 				C9C0948E1D614FAE00088C18 /* Assets.xcassets */,
 				C9C094901D614FAE00088C18 /* LaunchScreen.storyboard */,
@@ -97,6 +103,14 @@
 				C9C0949C1D615F2E00088C18 /* loans.swift */,
 			);
 			name = Factory;
+			sourceTree = "<group>";
+		};
+		C9C0949E1D61748400088C18 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0949F1D6174C900088C18 /* LNBListCell.swift */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96F00401D64108000AF095C /* FilterSelecedContoller.swift in Sources */,
+				C9C094A01D6174C900088C18 /* LNBListCell.swift in Sources */,
 				C9C0949A1D615EF900088C18 /* LNBListController.swift in Sources */,
 				C9C0949D1D615F2E00088C18 /* loans.swift in Sources */,
 				C9C094881D614FAE00088C18 /* AppDelegate.swift in Sources */,

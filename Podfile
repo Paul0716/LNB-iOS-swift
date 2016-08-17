@@ -9,5 +9,5 @@ target 'lnb_app' do
 
   # Pods for lnb_app
   pod 'Alamofire', '~> 3.4'
-
+  pod 'ActionSheetPicker-3.0'
 end
